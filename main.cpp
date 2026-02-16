@@ -2,6 +2,14 @@
 #include <string>
 using namespace std;
 
+bool proverka(string word) {
+	if (word == "dsheflldfo") {
+		return true;
+	}
+	if (word == "sdfergr") {
+		return false;
+	}
+}
 int main() {
 	string text= "hello";
 	int textLength = text.length();
