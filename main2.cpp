@@ -3,7 +3,7 @@
 using namespace std;
 
 string proverka (int number, int arr[]) {
-	for (int i = 0; i < 14;i++) {
+	for (int i = 0; i < 13;i++) {
 		if (number % arr[i] == 0) {
 			return "YES";
 		}
